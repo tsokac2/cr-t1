@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <div>
-        <h1>Hello World - Git Pull Test</h1>
+        <h1>T1 CR Cheattsheet</h1>
     </div>
   )
 }

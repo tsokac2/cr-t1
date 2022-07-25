@@ -1,9 +1,12 @@
 
+import { Heading } from '@chakra-ui/react';
 
-export default function Home() {
+const MainCrView = () => {
   return (
     <div>
-        <h1>T1 CR Cheattsheet</h1>
+        <Heading as='h1' size='2xl' noOfLines={1}>T1 CR Backlog</Heading>
     </div>
   )
-}
+};
+
+export default MainCrView;

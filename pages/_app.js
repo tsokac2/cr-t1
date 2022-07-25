@@ -1,13 +1,16 @@
-import '../styles/globals.css'
+import "../styles/index.css";
+import Layout from "../components/layout/Layout";
 
-import { ChakraProvider } from '@chakra-ui/react';
+import { ChakraProvider } from "@chakra-ui/react";
 
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </ChakraProvider>
   );
 }
 
-export default MyApp
+export default MyApp;
